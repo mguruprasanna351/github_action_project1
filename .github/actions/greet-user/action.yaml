@@ -5,7 +5,6 @@ inputs:
   # The value here is how you will reference the input in the job steps
   who_to_greet:
     description: 'What is your name?'
-    type: string
     required: true
 
 runs:
