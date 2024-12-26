@@ -14,4 +14,4 @@ runs:
       id: greet-user
       shell: bash
       run: |
-        echo "::notice::Hello, ${{ inputs.who_to_greet }} from an action!!!"
+        echo "::notice::Hello, ${{ inputs.who_to_greets }} from an action!!!"
