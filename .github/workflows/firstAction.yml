@@ -6,10 +6,6 @@ on:
         description: "Who should we greet?"
         type: string
         required: true
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   say_hello_fromAction:
